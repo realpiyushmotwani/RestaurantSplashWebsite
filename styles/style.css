@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  background-image: url("/Projects/Project3/assets/backgroundimage.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+nav {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 63px;
+  color: #ffc233;
+}
+
+nav button {
+  height: 30px;
+  width: 100px;
+  background-color: deeppink;
+  border: none;
+}
+
+main h1 {
+  font-family: "Dela Gothic One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 84px;
+  text-align: center;
+  line-height: 114px;
+  /* or 110% */
+  color: #ffc233;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+main button {
+  height: 30px;
+  width: 200px;
+  background-color: deeppink;
+  border: none;
+}
+
+footer img{
+    width: 80px;
+  align-self: right;
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
